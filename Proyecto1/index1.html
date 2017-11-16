@@ -35,66 +35,53 @@
 </head>
 
 <body>
-  <!-- Imagen cabecera -->
   <section class="container-fluid slider d-flex justify-content-start align-items-end">
     <h1 class="display-4 titulo">Bootstrap 4!</h1>
   </section>
-
-  <!-- Inicio de la navegacion -->
-  <nav class="navbar navbar-inverse navbar-toggleable-sm sticky-top" style="background-color: #0A0C0D;">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <!--img src="imagenes/menu.png" width="50" height="50" alt="botón"-->
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-    <a class="navbar-brand " href="index.html">
-      <img src="imagenes/icono/icono_lj.png" width="40" height="40" alt="boton" class="d-inline-block align-top mr-3">La Liga de la Justicia
-    </a>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <div class="navbar-nav mr-auto ml-auto text-center">
-        <a class="nav-item nav-link active" href="#">Inicio </a>
-        <a class="nav-item nav-link" href="#">Servicio</a>
-        <a class="nav-item nav-link" href="#">Nosotros</a>
-        <a class="nav-item nav-link " href="#">Contacto</a>
-      </div>
-      <div class="d-flex flex-row justify-content-around">
-        <a class="btn btn-outline-info mr-2" href="#">F</a>
-        <a class="btn btn-outline-danger" href="#">Y</a>
-      </div>
+    <a class="navbar-brand" href="#">Navbar</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><button type="button" class="btn btn-primary">Home</button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
   </nav>
-  <!-- Fin de la navegacion -->
-  <!-- Inicio Card -->
-  <section class="container mt-5 mp-5">
-    <div class="card-deck">
-      <div class="card border-danger">
-        <img class="card-img-top" src="imagenes/personajes/Aquaman.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="imagenes/personajes/Wonder_woman.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-      <div class="card ">
-        <img class="card-img-top" src="imagenes/personajes/Flash.jpg"  alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Fin Card -->
-
-
   <section class="container">
     <p class="mt-5 text-justify">La Liga de la Justicia es un equipo de superhéroes de cómics conformado por los principales personajes del Universo DC. Apareció por primera vez en The Brave and the Bold № 28 (1960). Tanto el nombre del grupo como sus integrantes han variado con
       los años. La formación original y más conocida comprende a: Superman, Batman, Mujer Maravilla, Flash (Barry Allen), Linterna Verde (Hal Jordan), Aquaman y Detective Marciano. La Liga de la Justicia es una de las principales publicaciones de la editorial
